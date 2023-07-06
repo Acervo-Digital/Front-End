@@ -1,0 +1,221 @@
+body,
+ul,
+li {
+    font-family: tahoma;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+.title {
+    color: white;
+    width: 100%;
+    background-color: rgb(128, 0, 32);
+    border-bottom-color: pink;
+    display: inline-block;
+    padding: 2px 0px;
+    position: sticky;
+    top: 0px;
+}
+
+.slogan {
+    padding-top: 40px;
+    color: rgb(192, 8, 54);
+    ;
+}
+
+.slogan-secondary {
+    color: rgb(192, 8, 54);
+    font-weight: lighter;
+}
+
+.banner {
+    height: 300px;
+    overflow: hidden;
+}
+
+.banner img {
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+}
+
+.newItem {
+    padding: 30px 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    background-color: #F5F5F5;
+    padding-top: 7%;
+    margin-top: -2%;
+}
+
+.infoNewItem {
+    background-color: #F5F5F5;
+}
+
+.infoBuscaItem {
+    background-color: white;
+}
+
+.items {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #F5F5F5;
+    padding-bottom: 30%;
+}
+
+.buscaItem {
+    padding: 30px 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding-top: 7%;
+    margin-top: -2%;
+}
+
+.itemsBusca {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding-bottom: 30%;
+}
+
+.newItem:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.buttonsMenus {
+    padding: 30px 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.infoMenus {
+    padding: 40px 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.infoMenus span {
+    display: block;
+    padding-bottom: 4%;
+    padding-left: 18%;
+}
+
+.infoMenus img {
+    margin-left: 50%;
+    margin-top: -23%;
+}
+
+#idCadastro {
+    color: #C00836;
+}
+
+#newInput {
+    margin: 0;
+    border: 1px solid rgb(35, 32, 24);
+    width: 25%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#newQuantity {
+    margin: 0;
+    border: 1px solid rgb(35, 32, 24);
+    width: 8%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#newPrice {
+    margin: 0;
+    border: 1px solid rgb(35, 32, 24);
+    width: 5%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.addBtn {
+    padding: 9px 10px;
+    background-color: rgb(192, 8, 54);
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 2px;
+}
+
+.addBtn:hover {
+    background-color: rgb(35, 32, 24);
+    color: white;
+}
+
+.addBookBtn {
+    border: none;
+    border-radius: 28px 28px 28px 28px;
+    padding: 15px 40px 15px 40px;
+    margin-right: 40px;
+    background-color: #C00836;
+    color: white;
+    cursor: pointer;
+}
+
+.searchBookBtn {
+    border: none;
+    border-radius: 28px 28px 28px 28px;
+    padding: 15px 40px 15px 40px;
+    margin-right: 40px;
+    background-color: #C00836;
+    color: white;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: #f44336;
+    font-weight: bolder;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 10px;
+    font-size: 18px;
+    transition: 0.2s;
+    text-align: start;
+}
+
+table {
+    background-color: white;
+    width: 50%;
+}
+
+tr:nth-child(odd) {
+    background-color: #eee;
+}
+
+th:nth-child(1) {
+    width: 80%;
+}
+
+tr:hover {
+    background: rgb(200, 199, 199);
+}
