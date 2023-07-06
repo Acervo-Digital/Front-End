@@ -62,9 +62,10 @@
         <h1 class="slogan">Cadastro de Livros!</h1>
     </header>
 
-    <!-- Opções para adicionar um novo item -->
+    <!-- Opções para adicionar um novo livro -->
     <section class="newItem">
-        <input type="text" id="newInput" placeholder="Adicionar novo item:">
+        <input type="text" id="newInput" placeholder="Adicionar novo livro:">
+        <input type="text" id="newGender" placeholder="Genero:">
         <input type="text" id="newQuantity" placeholder="Quantidade:">
         <input type="text" id="newPrice" placeholder="Valor:">
         <span onclick="newItem()" class="addBtn">Adicionar</span>
@@ -75,6 +76,7 @@
         <table id="myTable">
             <tr>
                 <th>Nome</th>
+                <th>Genero</th>
                 <th>Quantidade</th>
                 <th>Valor</th>
                 <th><img src="img/lapis.png" width="15px" height="15px"></th>
@@ -89,9 +91,10 @@
         <h1 class="slogan">Busca de Livros!</h1>
     </header>
 
-    <!-- Opções para buscar um novo item -->
+    <!-- Opções para buscar um novo livro -->
     <section class="buscaItem">
-        <input type="text" id="newInput" placeholder="Nome do item requerido:">
+        <input type="text" id="newInput" placeholder="Nome do livro requerido:">
+        <input type="text" id="newGender" placeholder="Genero:">
         <input type="text" id="newQuantity" placeholder="Quantidade:">
         <input type="text" id="newPrice" placeholder="Valor:">
         <span onclick="newItem()" class="addBtn">Buscar</span>
@@ -102,6 +105,7 @@
         <table id="myTable">
             <tr>
                 <th>Nome</th>
+                <th>Genero</th>
                 <th>Quantidade</th>
                 <th>Valor</th>
                 <th><img src="img/lapis.png" width="15px" height="15px"></th>

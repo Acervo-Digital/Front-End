@@ -141,6 +141,14 @@ header {
     font-size: 16px;
 }
 
+#newGender {
+    margin: 0;
+    border: 1px solid rgb(35, 32, 24);
+    width: 8%;
+    padding: 10px;
+    font-size: 16px;
+}
+
 #newPrice {
     margin: 0;
     border: 1px solid rgb(35, 32, 24);
@@ -213,7 +221,7 @@ tr:nth-child(odd) {
 }
 
 th:nth-child(1) {
-    width: 80%;
+    width: 40%;
 }
 
 tr:hover {
