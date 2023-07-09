@@ -72,7 +72,7 @@ header {
     padding-bottom: 30%;
 }
 
-.buscaItem {
+.searchItem {
     padding: 30px 40px;
     color: white;
     display: flex;
@@ -126,6 +126,14 @@ header {
 }
 
 #newInput {
+    margin: 0;
+    border: 1px solid rgb(35, 32, 24);
+    width: 25%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#inputRequired {
     margin: 0;
     border: 1px solid rgb(35, 32, 24);
     width: 25%;

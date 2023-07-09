@@ -79,7 +79,6 @@
                 <th>Genero</th>
                 <th>Quantidade</th>
                 <th>Valor</th>
-                <th><img src="img/lapis.png" width="15px" height="15px"></th>
                 <th><img src="https://cdn-icons-png.flaticon.com/512/126/126468.png" width="15px" height="15px"></th>
             </tr>
         </table>
@@ -91,24 +90,20 @@
         <h1 class="slogan">Busca de Livros!</h1>
     </header>
 
-    <!-- Opções para buscar um novo livro -->
-    <section class="buscaItem">
-        <input type="text" id="newInput" placeholder="Nome do livro requerido:">
-        <input type="text" id="newGender" placeholder="Genero:">
-        <input type="text" id="newQuantity" placeholder="Quantidade:">
-        <input type="text" id="newPrice" placeholder="Valor:">
-        <span onclick="newItem()" class="addBtn">Buscar</span>
+    <!-- Opções para buscar um livro -->
+    <section class="searchItem">
+        <input type="text" id="inputRequired" placeholder="Nome do livro requerido:">
+        <span onclick="searchItem()" class="addBtn">Buscar</span>
     </section>
 
     <!-- Tabela para itens de busca/pesquisa -->
     <section class="itemsBusca">
-        <table id="myTable">
+        <table id="myTableRequired">
             <tr>
                 <th>Nome</th>
                 <th>Genero</th>
                 <th>Quantidade</th>
                 <th>Valor</th>
-                <th><img src="img/lapis.png" width="15px" height="15px"></th>
                 <th><img src="https://cdn-icons-png.flaticon.com/512/126/126468.png" width="15px" height="15px"></th>
             </tr>
         </table>
